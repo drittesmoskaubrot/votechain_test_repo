@@ -1,0 +1,740 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+VoteChainCoin version v0.6.3.0-unk-beta ()
+Startup time: 09/27/16 21:41:48
+Default data directory /home/anon/.VoteChainCoin
+Used data directory /home/anon/.VoteChainCoin
+Bound to [::]:9379
+Bound to 0.0.0.0:9379
+Loading block index...
+dbenv.open LogDir=/home/anon/.VoteChainCoin/database ErrorFile=/home/anon/.VoteChainCoin/db.log
+fe9a7b14f86e0dc99cea1191ba985148009afa6ad17e23d72a2fe0df47a63e6c
+fe9a7b14f86e0dc99cea1191ba985148009afa6ad17e23d72a2fe0df47a63e6c
+97ca5b2432a242551ac28faee2138e563bbd1b06234ad600c7cc32513852b1f7
+CBlock(hash=fe9a7b14f86e0dc99cea, PoW=000006099a8f3e5e48c8, ver=1, hashPrevBlock=00000000000000000000, hashMerkleRoot=97ca5b2432, nTime=1474660009, nBits=1e0ffff0, nNonce=1049573, vtx=1)
+  CTransaction(hash=97ca5b2432, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 04ffff001d010416466972737420646179206f6620566f7465436861696e)
+    CTxOut(error)
+  vMerkleTree: 97ca5b2432 
+SetBestChain: new best=fe9a7b14f86e0dc99cea  height=0  work=1048592  date=09/23/16 19:46:49
+ block index             348ms
+Loading wallet...
+nFileVersion = 60300
+Performing wallet upgrade to 60000
+keypool added key 1, size=1
+keypool added key 2, size=2
+keypool added key 3, size=3
+keypool added key 4, size=4
+keypool added key 5, size=5
+keypool added key 6, size=6
+keypool added key 7, size=7
+keypool added key 8, size=8
+keypool added key 9, size=9
+keypool added key 10, size=10
+keypool added key 11, size=11
+keypool added key 12, size=12
+keypool added key 13, size=13
+keypool added key 14, size=14
+keypool added key 15, size=15
+keypool added key 16, size=16
+keypool added key 17, size=17
+keypool added key 18, size=18
+keypool added key 19, size=19
+keypool added key 20, size=20
+keypool added key 21, size=21
+keypool added key 22, size=22
+keypool added key 23, size=23
+keypool added key 24, size=24
+keypool added key 25, size=25
+keypool added key 26, size=26
+keypool added key 27, size=27
+keypool added key 28, size=28
+keypool added key 29, size=29
+keypool added key 30, size=30
+keypool added key 31, size=31
+keypool added key 32, size=32
+keypool added key 33, size=33
+keypool added key 34, size=34
+keypool added key 35, size=35
+keypool added key 36, size=36
+keypool added key 37, size=37
+keypool added key 38, size=38
+keypool added key 39, size=39
+keypool added key 40, size=40
+keypool added key 41, size=41
+keypool added key 42, size=42
+keypool added key 43, size=43
+keypool added key 44, size=44
+keypool added key 45, size=45
+keypool added key 46, size=46
+keypool added key 47, size=47
+keypool added key 48, size=48
+keypool added key 49, size=49
+keypool added key 50, size=50
+keypool added key 51, size=51
+keypool added key 52, size=52
+keypool added key 53, size=53
+keypool added key 54, size=54
+keypool added key 55, size=55
+keypool added key 56, size=56
+keypool added key 57, size=57
+keypool added key 58, size=58
+keypool added key 59, size=59
+keypool added key 60, size=60
+keypool added key 61, size=61
+keypool added key 62, size=62
+keypool added key 63, size=63
+keypool added key 64, size=64
+keypool added key 65, size=65
+keypool added key 66, size=66
+keypool added key 67, size=67
+keypool added key 68, size=68
+keypool added key 69, size=69
+keypool added key 70, size=70
+keypool added key 71, size=71
+keypool added key 72, size=72
+keypool added key 73, size=73
+keypool added key 74, size=74
+keypool added key 75, size=75
+keypool added key 76, size=76
+keypool added key 77, size=77
+keypool added key 78, size=78
+keypool added key 79, size=79
+keypool added key 80, size=80
+keypool added key 81, size=81
+keypool added key 82, size=82
+keypool added key 83, size=83
+keypool added key 84, size=84
+keypool added key 85, size=85
+keypool added key 86, size=86
+keypool added key 87, size=87
+keypool added key 88, size=88
+keypool added key 89, size=89
+keypool added key 90, size=90
+keypool added key 91, size=91
+keypool added key 92, size=92
+keypool added key 93, size=93
+keypool added key 94, size=94
+keypool added key 95, size=95
+keypool added key 96, size=96
+keypool added key 97, size=97
+keypool added key 98, size=98
+keypool added key 99, size=99
+keypool added key 100, size=100
+keypool added key 101, size=101
+keypool reserve 1
+keypool keep 1
+ wallet                 9224ms
+Loading addresses...
+ERROR: CAddrman::Read() : open failed
+Invalid or missing peers.dat; recreating
+Loaded 0 addresses from peers.dat  0ms
+mapBlockIndex.size() = 1
+nBestHeight = 0
+setKeyPool.size() = 100
+mapWallet.size() = 0
+mapAddressBook.size() = 1
+Done loading
+send version message: version 60001, blocks=0, us=0.0.0.0:0, them=0.0.0.0:0, peer=127.0.0.1:0
+ThreadRPCServer started
+Error: To use VoteChainCoin, you must set a rpcpassword in the configuration file:
+ /home/anon/.VoteChainCoin/VoteChainCoin.conf
+It is recommended you use the following random password:
+rpcuser=VoteChainCoinrpc
+rpcpassword=DyUi9hhqYmxjwH8mjTCntZ1nPj1RSYZxb5yGUHWP3pcr
+(you do not need to remember this password)
+If the file does not exist, create it with owner-readable-only file permissions.
+
+ThreadRPCServer exited
+ThreadDNSAddressSeed started
+Loading addresses from DNS seeds (could take a while)
+0 addresses found from DNS seeds
+ThreadDNSAddressSeed exited
+ThreadIRCSeed started
+Flush(false)
+blkindex.dat refcount=0
+ThreadDumpAddress exited
+ThreadMessageHandler started
+ThreadMessageHandler exited
+blkindex.dat checkpoint
+ThreadSocketHandler started
+ThreadSocketHandler exited
+ThreadOpenAddedConnections started
+ThreadOpenAddedConnections exited
+ThreadOpenConnections started
+blkindex.dat closed
+wallet.dat refcount=0
+wallet.dat checkpoint
+wallet.dat detach
+wallet.dat closed
+DBFlush(false) ended             108ms
+StopNode()
+Flushed 0 addresses to peers.dat  65ms
+Flush(true)
+DBFlush(true) ended               0ms
+VoteChainCoin exited
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+VoteChainCoin version v0.6.3.0-unk-beta ()
+Startup time: 09/27/16 21:42:45
+Default data directory /home/anon/.VoteChainCoin
+Used data directory /home/anon/.VoteChainCoin
+Bound to [::]:9379
+Bound to 0.0.0.0:9379
+Loading block index...
+dbenv.open LogDir=/home/anon/.VoteChainCoin/database ErrorFile=/home/anon/.VoteChainCoin/db.log
+LoadBlockIndex(): hashBestChain=fe9a7b14f86e0dc99cea  height=0  date=09/23/16 19:46:49
+Verifying last 0 blocks at level 1
+ block index              58ms
+Loading wallet...
+nFileVersion = 60300
+ wallet                  728ms
+Loading addresses...
+Loaded 0 addresses from peers.dat  0ms
+mapBlockIndex.size() = 1
+nBestHeight = 0
+setKeyPool.size() = 100
+mapWallet.size() = 0
+mapAddressBook.size() = 1
+Done loading
+send version message: version 60001, blocks=0, us=0.0.0.0:0, them=0.0.0.0:0, peer=127.0.0.1:0
+ThreadRPCServer started
+ThreadOpenConnections started
+ThreadMessageHandler started
+ThreadOpenAddedConnections started
+trying connection 192.168.0.144:9379 lastseen=381947.9hrs
+ThreadSocketHandler started
+ThreadIRCSeed started
+ThreadDNSAddressSeed started
+Loading addresses from DNS seeds (could take a while)
+0 addresses found from DNS seeds
+ThreadDNSAddressSeed exited
+connected 192.168.0.144:9379
+send version message: version 60001, blocks=0, us=0.0.0.0:0, them=0.0.0.0:0, peer=192.168.0.144:9379
+Flushed 0 addresses to peers.dat  54ms
+IRC :irc.smutfairy.com NOTICE * :*** Looking up your hostname
+IRC :irc.smutfairy.com NOTICE * :*** Couldn't look up your hostname
+IRC SENDING: NICK x356294045
+IRC SENDING: USER x356294045 8 * : x356294045
+Added time data, samples 2, offset -1 (+0 minutes)
+receive version message: version 60001, blocks=3, us=0.0.0.0:0, them=46.7.233.170:9380, peer=192.168.0.144:9379
+IRC :irc.smutfairy.com 001 x356294045 :Welcome to the LFNet Internet Relay Chat Network x356294045
+IRC :irc.smutfairy.com 002 x356294045 :Your host is irc.smutfairy.com[::/6667], running version hybrid-8.2.8
+IRC :irc.smutfairy.com 003 x356294045 :This server was created Sep 11 2015 at 16:23:32
+IRC :irc.smutfairy.com 004 x356294045 irc.smutfairy.com hybrid-8.2.8 DFGHRSWabcdefgijklnopqrsuwxy bchiklmnoprstveCIMORS bkloveIh
+trying connection 192.168.0.151:9379 lastseen=381947.9hrs
+connected 192.168.0.151:9379
+send version message: version 60001, blocks=0, us=0.0.0.0:0, them=0.0.0.0:0, peer=192.168.0.151:9379
+Added time data, samples 3, offset +0 (+0 minutes)
+receive version message: version 60001, blocks=3, us=0.0.0.0:0, them=46.7.233.170:9380, peer=192.168.0.151:9379
+received block d89eb0eae93d4a1130ab
+SetBestChain: new best=d89eb0eae93d4a1130ab  height=1  work=2097184  date=09/27/16 20:42:45
+ProcessBlock: ACCEPTED
+received block c4285629c44e2744cb58
+IRC SENDING: USERHOST x356294045
+IRC :irc.smutfairy.com 302 x356294045 :x356294045=+x356294045@46.7.233.170 
+GetIPFromIRC() got userhost 46.7.233.170
+GetIPFromIRC() returned 46.7.233.170
+AddLocal(46.7.233.170:9379,4)
+IRC SENDING: NICK u3aze9zkw3ZtfuJ
+IRC SENDING: JOIN #VoteChainCoin00
+IRC SENDING: WHO #VoteChainCoin00
+SetBestChain: new best=c4285629c44e2744cb58  height=2  work=3145776  date=09/27/16 20:48:27
+ProcessBlock: ACCEPTED
+received block 72d4b4a2a788e3167030
+trying connection 192.168.0.150:9379 lastseen=381947.9hrs
+IRC got join
+IRC got who
+IRC got who
+IRC got who
+IRC got who
+IRC got who
+Added 46.7.233.170:9379 from 62.210.131.147: 0 tried, 1 new
+IRC got new address: 46.7.233.170:9379
+GetMyExternalIP() received [46.7.233.170] 46.7.233.170:0
+GetMyExternalIP() returned 46.7.233.170
+AddLocal(46.7.233.170:9379,5)
+SetBestChain: new best=72d4b4a2a788e3167030  height=3  work=4194368  date=09/27/16 21:09:04
+ProcessBlock: ACCEPTED
+connected 192.168.0.150:9379
+send version message: version 60001, blocks=3, us=46.7.233.170:9380, them=0.0.0.0:0, peer=192.168.0.150:9379
+getblocks -1 to 00000000000000000000 limit 500
+Added time data, samples 4, offset +0 (+0 minutes)
+receive version message: version 60001, blocks=3, us=0.0.0.0:0, them=46.7.233.170:9380, peer=192.168.0.150:9379
+trying connection 192.168.0.31:9379 lastseen=381947.9hrs
+connect() failed after select(): Connection refused
+trying connection 192.168.0.38:9379 lastseen=381947.9hrs
+connected 192.168.0.38:9379
+send version message: version 60001, blocks=3, us=46.7.233.170:9380, them=0.0.0.0:0, peer=192.168.0.38:9379
+Added time data, samples 5, offset +0 (+0 minutes)
+nTimeOffset = +0  (+0 minutes)
+receive version message: version 60001, blocks=3, us=0.0.0.0:0, them=46.7.233.170:9380, peer=192.168.0.38:9379
+trying connection 192.168.0.80:9379 lastseen=381947.9hrs
+Flushing wallet.dat
+Flushed wallet.dat 66ms
+connect() failed after select(): No route to host
+ThreadRPCServer method=setgenerate
+2 processors
+Starting 1 BitcoinMiner threads
+BitcoinMiner started
+keypool added key 102, size=101
+keypool reserve 2
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+Flushing wallet.dat
+Flushed wallet.dat 74ms
+09/27/16 21:43 hashmeter   1 CPUs      0 khash/s
+Flushed 1 addresses to peers.dat  44ms
+trying connection 192.168.0.31:9379 lastseen=381948.0hrs
+connect() failed after select(): Connection refused
+trying connection 192.168.0.80:9379 lastseen=381948.0hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  49ms
+trying connection 192.168.0.31:9379 lastseen=381948.0hrs
+connect() failed after select(): Connection refused
+trying connection 192.168.0.80:9379 lastseen=381948.0hrs
+connect() failed after select(): No route to host
+ThreadRPCServer method=getmininginfo
+Flushed 1 addresses to peers.dat  58ms
+ThreadRPCServer method=getmininginfo
+ThreadRPCServer method=getmininginfo
+trying connection 192.168.0.31:9379 lastseen=381948.0hrs
+connect() failed after select(): Connection refused
+trying connection 192.168.0.80:9379 lastseen=381948.0hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  47ms
+ThreadRPCServer method=getmininginfo
+ResendWalletTransactions()
+trying connection 192.168.0.31:9379 lastseen=381948.1hrs
+connect() failed after select(): Connection refused
+trying connection 192.168.0.80:9379 lastseen=381948.1hrs
+Flushed 1 addresses to peers.dat  59ms
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  52ms
+trying connection 192.168.0.31:9379 lastseen=381948.1hrs
+connect() failed after select(): Connection refused
+trying connection 192.168.0.80:9379 lastseen=381948.1hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  78ms
+trying connection 192.168.0.31:9379 lastseen=381948.1hrs
+connect() failed after select(): Connection refused
+trying connection 192.168.0.80:9379 lastseen=381948.1hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  50ms
+trying connection 192.168.0.31:9379 lastseen=381948.2hrs
+connect() failed after select(): Connection refused
+trying connection 192.168.0.80:9379 lastseen=381948.2hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  66ms
+trying connection 192.168.0.31:9379 lastseen=381948.2hrs
+connect() failed after select(): Connection refused
+trying connection 192.168.0.80:9379 lastseen=381948.2hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  47ms
+Flushed 1 addresses to peers.dat  48ms
+trying connection 192.168.0.31:9379 lastseen=381948.2hrs
+connect() failed after select(): Connection refused
+trying connection 192.168.0.80:9379 lastseen=381948.2hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  46ms
+trying connection 192.168.0.31:9379 lastseen=381948.3hrs
+connect() failed after select(): Connection refused
+trying connection 192.168.0.80:9379 lastseen=381948.3hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  37ms
+trying connection 192.168.0.31:9379 lastseen=381948.3hrs
+connect() failed after select(): Connection refused
+trying connection 192.168.0.80:9379 lastseen=381948.3hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  48ms
+trying connection 192.168.0.31:9379 lastseen=381948.3hrs
+connect() failed after select(): Connection refused
+trying connection 192.168.0.80:9379 lastseen=381948.3hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  57ms
+Flushed 1 addresses to peers.dat  56ms
+trying connection 192.168.0.31:9379 lastseen=381948.4hrs
+connect() failed after select(): Connection refused
+trying connection 192.168.0.80:9379 lastseen=381948.4hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  45ms
+socket closed
+disconnecting node 192.168.0.150:9379
+trying connection 192.168.0.150:9379 lastseen=381948.4hrs
+connect() failed after select(): Connection refused
+trying connection 192.168.0.31:9379 lastseen=381948.4hrs
+connect() failed after select(): Connection refused
+trying connection 192.168.0.80:9379 lastseen=381948.4hrs
+connect() failed after select(): No route to host
+IRC got join
+accepted connection 192.168.0.150:33652
+send version message: version 60001, blocks=3, us=46.7.233.170:9380, them=0.0.0.0:0, peer=192.168.0.150:33652
+receive version message: version 60001, blocks=3, us=0.0.0.0:0, them=46.7.233.170:9379, peer=192.168.0.150:33652
+received block 9fe7b03f20dffeb28e3d
+SetBestChain: new best=9fe7b03f20dffeb28e3d  height=4  work=5242960  date=09/27/16 22:12:27
+ProcessBlock: ACCEPTED
+getblocks -1 to 00000000000000000000 limit 500
+getblocks -1 to 00000000000000000000 limit 500
+getblocks -1 to 00000000000000000000 limit 500
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+Flushing wallet.dat
+Flushed wallet.dat 61ms
+Flushed 1 addresses to peers.dat  43ms
+09/27/16 22:13 hashmeter   1 CPUs      0 khash/s
+trying connection 192.168.0.31:9379 lastseen=381948.5hrs
+connect() failed after select(): Connection refused
+trying connection 192.168.0.80:9379 lastseen=381948.5hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  47ms
+trying connection 192.168.0.31:9379 lastseen=381948.5hrs
+connect() failed after select(): Connection refused
+trying connection 192.168.0.80:9379 lastseen=381948.5hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  41ms
+Flushed 1 addresses to peers.dat  42ms
+trying connection 192.168.0.31:9379 lastseen=381948.5hrs
+connect() failed after select(): Connection refused
+trying connection 192.168.0.80:9379 lastseen=381948.5hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  51ms
+trying connection 192.168.0.31:9379 lastseen=381948.6hrs
+connect() failed after select(): Connection refused
+trying connection 192.168.0.80:9379 lastseen=381948.6hrs
+connect() failed after select(): No route to host
+socket closed
+disconnecting node 192.168.0.38:9379
+Flushed 1 addresses to peers.dat  43ms
+IRC got join
+accepted connection 192.168.0.38:58990
+send version message: version 60001, blocks=4, us=46.7.233.170:9380, them=0.0.0.0:0, peer=192.168.0.38:58990
+receive version message: version 60001, blocks=3, us=0.0.0.0:0, them=46.7.233.170:9380, peer=192.168.0.38:58990
+socket closed
+disconnecting node 192.168.0.38:58990
+trying connection 192.168.0.31:9379 lastseen=381948.6hrs
+connect() failed after select(): Connection refused
+trying connection 192.168.0.38:9379 lastseen=381948.6hrs
+connect() failed after select(): Connection refused
+trying connection 192.168.0.80:9379 lastseen=381948.6hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  43ms
+ResendWalletTransactions()
+IRC got join
+accepted connection 192.168.0.38:59010
+send version message: version 60001, blocks=4, us=46.7.233.170:9380, them=0.0.0.0:0, peer=192.168.0.38:59010
+receive version message: version 60001, blocks=4, us=0.0.0.0:0, them=46.7.233.170:9380, peer=192.168.0.38:59010
+trying connection 192.168.0.31:9379 lastseen=381948.6hrs
+connect() failed after select(): Connection refused
+trying connection 192.168.0.80:9379 lastseen=381948.6hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  71ms
+Flushed 1 addresses to peers.dat  42ms
+trying connection 192.168.0.31:9379 lastseen=381948.7hrs
+connect() failed after select(): Connection refused
+trying connection 192.168.0.80:9379 lastseen=381948.7hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  51ms
+trying connection 192.168.0.31:9379 lastseen=381948.7hrs
+connect() failed after select(): Connection refused
+trying connection 192.168.0.80:9379 lastseen=381948.7hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  91ms
+ThreadRPCServer method=getmininginfo
+ThreadRPCServer method=getpeerinfo
+trying connection 192.168.0.31:9379 lastseen=381948.7hrs
+connect() failed after select(): Connection refused
+trying connection 192.168.0.80:9379 lastseen=381948.7hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  44ms
+trying connection 192.168.0.31:9379 lastseen=381948.8hrs
+connect() failed after select(): Connection refused
+trying connection 192.168.0.80:9379 lastseen=381948.8hrs
+BitcoinMiner:
+proof-of-work found  
+  hash: 00000dfbc761390720f071e0990cf76f0bb468f3c3252f19827b2ff93de43cd8  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+CBlock(hash=c69736c91e9a3fa32a61, PoW=00000dfbc761390720f0, ver=1, hashPrevBlock=9fe7b03f20dffeb28e3d, hashMerkleRoot=0d3b136879, nTime=1475015559, nBits=1e0ffff0, nNonce=509032, vtx=1)
+  CTransaction(hash=0d3b136879, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 04cdeeea570101062f503253482f)
+    CTxOut(nValue=100000.00000000, scriptPubKey=03b633fbd7b5b431156781d6b30949)
+  vMerkleTree: 0d3b136879 
+generated 100000.00
+keypool keep 2
+AddToWallet 0d3b136879  new
+SetBestChain: new best=c69736c91e9a3fa32a61  height=5  work=6291552  date=09/27/16 22:32:39
+ProcessBlock: ACCEPTED
+keypool added key 103, size=101
+keypool reserve 3
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block c69736c91e9a3fa32a61
+received getdata for: block c69736c91e9a3fa32a61
+received getdata for: block c69736c91e9a3fa32a61
+received getdata for: block c69736c91e9a3fa32a61
+connect() failed after select(): No route to host
+Flushing wallet.dat
+Flushed wallet.dat 60ms
+Flushed 1 addresses to peers.dat  55ms
+Flushed 1 addresses to peers.dat  55ms
+trying connection 192.168.0.31:9379 lastseen=381948.8hrs
+connect() failed after select(): Connection refused
+trying connection 192.168.0.80:9379 lastseen=381948.8hrs
+connect() failed after select(): No route to host
+IRC got join
+accepted connection 192.168.0.31:42170
+send version message: version 60001, blocks=5, us=46.7.233.170:9380, them=0.0.0.0:0, peer=192.168.0.31:42170
+Added time data, samples 6, offset +4 (+0 minutes)
+receive version message: version 60001, blocks=5, us=0.0.0.0:0, them=46.7.233.170:9379, peer=192.168.0.31:42170
+Flushed 1 addresses to peers.dat  53ms
+trying connection 192.168.0.80:9379 lastseen=381948.8hrs
+connect() failed after select(): No route to host
+ThreadRPCServer method=getmininginfo
+Flushed 1 addresses to peers.dat  56ms
+trying connection 192.168.0.80:9379 lastseen=381948.9hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  44ms
+trying connection 192.168.0.80:9379 lastseen=381948.9hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  44ms
+Flushed 1 addresses to peers.dat  42ms
+trying connection 192.168.0.80:9379 lastseen=381948.9hrs
+connect() failed after select(): No route to host
+09/27/16 22:43 hashmeter   1 CPUs      0 khash/s
+BitcoinMiner:
+proof-of-work found  
+  hash: 00000eadb442b252d3005c469fabe6d20f05499d38d9052faa2b45f3ccc4d7a1  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+CBlock(hash=a6379b2593f37ac49899, PoW=00000eadb442b252d300, ver=1, hashPrevBlock=c69736c91e9a3fa32a61, hashMerkleRoot=35210b12a8, nTime=1475016260, nBits=1e0ffff0, nNonce=292644, vtx=1)
+  CTransaction(hash=35210b12a8, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 0488f3ea570101062f503253482f)
+    CTxOut(nValue=100000.00000000, scriptPubKey=036509966c087c8f950fdc338c1935)
+  vMerkleTree: 35210b12a8 
+generated 100000.00
+keypool keep 3
+AddToWallet 35210b12a8  new
+SetBestChain: new best=a6379b2593f37ac49899  height=6  work=7340144  date=09/27/16 22:44:20
+ProcessBlock: ACCEPTED
+keypool added key 104, size=101
+keypool reserve 4
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block a6379b2593f37ac49899
+received getdata for: block a6379b2593f37ac49899
+received getdata for: block a6379b2593f37ac49899
+received getdata for: block a6379b2593f37ac49899
+received getdata for: block a6379b2593f37ac49899
+Flushing wallet.dat
+Flushed wallet.dat 83ms
+Flushed 1 addresses to peers.dat  55ms
+trying connection 192.168.0.80:9379 lastseen=381949.0hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  121ms
+trying connection 192.168.0.80:9379 lastseen=381949.0hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  53ms
+trying connection 192.168.0.80:9379 lastseen=381949.0hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  44ms
+received block edd8275a51b19eec35fd
+SetBestChain: new best=edd8275a51b19eec35fd  height=7  work=8388736  date=09/27/16 22:49:52
+ProcessBlock: ACCEPTED
+getblocks -1 to 00000000000000000000 limit 500
+getblocks -1 to 00000000000000000000 limit 500
+getblocks -1 to 00000000000000000000 limit 500
+getblocks -1 to 00000000000000000000 limit 500
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+Flushing wallet.dat
+Flushed wallet.dat 58ms
+ResendWalletTransactions()
+Flushed 1 addresses to peers.dat  56ms
+trying connection 192.168.0.80:9379 lastseen=381949.1hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  45ms
+trying connection 192.168.0.80:9379 lastseen=381949.1hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  53ms
+trying connection 192.168.0.80:9379 lastseen=381949.1hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  56ms
+trying connection 192.168.0.80:9379 lastseen=381949.2hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  88ms
+Flushed 1 addresses to peers.dat  57ms
+trying connection 192.168.0.80:9379 lastseen=381949.2hrs
+connect() failed after select(): No route to host
+received block 61120fa6767f4dcbeb3b
+SetBestChain: new best=61120fa6767f4dcbeb3b  height=8  work=9437328  date=09/27/16 23:00:36
+ProcessBlock: ACCEPTED
+getblocks -1 to 00000000000000000000 limit 500
+getblocks -1 to 00000000000000000000 limit 500
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+Flushing wallet.dat
+Flushed wallet.dat 66ms
+Flushed 1 addresses to peers.dat  45ms
+trying connection 192.168.0.80:9379 lastseen=381949.3hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  79ms
+trying connection 192.168.0.80:9379 lastseen=381949.3hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  44ms
+trying connection 192.168.0.80:9379 lastseen=381949.3hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  45ms
+Flushed 1 addresses to peers.dat  49ms
+trying connection 192.168.0.80:9379 lastseen=381949.4hrs
+connect() failed after select(): No route to host
+ResendWalletTransactions()
+Flushed 1 addresses to peers.dat  39ms
+trying connection 192.168.0.80:9379 lastseen=381949.4hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  106ms
+trying connection 192.168.0.80:9379 lastseen=381949.4hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  101ms
+09/27/16 23:13 hashmeter   1 CPUs      0 khash/s
+trying connection 192.168.0.80:9379 lastseen=381949.5hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  54ms
+Flushed 1 addresses to peers.dat  56ms
+trying connection 192.168.0.80:9379 lastseen=381949.5hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  48ms
+trying connection 192.168.0.80:9379 lastseen=381949.5hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  47ms
+trying connection 192.168.0.80:9379 lastseen=381949.6hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  54ms
+received block 12f6457b59d77cc088e2
+SetBestChain: new best=12f6457b59d77cc088e2  height=9  work=10485920  date=09/27/16 23:21:31
+ProcessBlock: ACCEPTED
+getblocks -1 to 00000000000000000000 limit 500
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+Flushing wallet.dat
+Flushed wallet.dat 61ms
+trying connection 192.168.0.80:9379 lastseen=381949.6hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  59ms
+Flushed 1 addresses to peers.dat  50ms
+trying connection 192.168.0.80:9379 lastseen=381949.6hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  40ms
+trying connection 192.168.0.80:9379 lastseen=381949.7hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  48ms
+trying connection 192.168.0.80:9379 lastseen=381949.7hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  31ms
+trying connection 192.168.0.80:9379 lastseen=381949.7hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  52ms
+Flushed 1 addresses to peers.dat  38ms
+trying connection 192.168.0.80:9379 lastseen=381949.8hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  47ms
+trying connection 192.168.0.80:9379 lastseen=381949.8hrs
+connect() failed after select(): No route to host
+BitcoinMiner:
+proof-of-work found  
+  hash: 000005ca8c1d35b1909eea84e8e2cab8fc6df4ca4aaa653c8e42e2e3ca03cf54  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+CBlock(hash=d7a585fa825fe84e31a1, PoW=000005ca8c1d35b1909e, ver=1, hashPrevBlock=12f6457b59d77cc088e2, hashMerkleRoot=2682f23e7d, nTime=1475019327, nBits=1e0ffff0, nNonce=355919, vtx=1)
+  CTransaction(hash=2682f23e7d, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 04fdfeea570101062f503253482f)
+    CTxOut(nValue=100000.00000000, scriptPubKey=03edd82e47c48bc59e055607a4b935)
+  vMerkleTree: 2682f23e7d 
+generated 100000.00
+keypool keep 4
+AddToWallet 2682f23e7d  new
+SetBestChain: new best=d7a585fa825fe84e31a1  height=10  work=11534512  date=09/27/16 23:35:27
+ProcessBlock: ACCEPTED
+keypool added key 105, size=101
+keypool reserve 5
+CreateNewBlock(): total size 1000
+Running BitcoinMiner with 1 transactions in block
+received getdata for: block d7a585fa825fe84e31a1
+received getdata for: block d7a585fa825fe84e31a1
+received getdata for: block d7a585fa825fe84e31a1
+received getdata for: block d7a585fa825fe84e31a1
+Flushing wallet.dat
+Flushed wallet.dat 63ms
+Flushed 1 addresses to peers.dat  52ms
+socket recv error 113
+disconnecting node 192.168.0.151:9379
+trying connection 192.168.0.151:9379 lastseen=381949.8hrs
+connect() failed after select(): No route to host
+trying connection 192.168.0.80:9379 lastseen=381949.8hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  46ms
+trying connection 192.168.0.151:9379 lastseen=381949.9hrs
+connect() failed after select(): No route to host
+trying connection 192.168.0.80:9379 lastseen=381949.9hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  40ms
+ResendWalletTransactions()
+Flushed 1 addresses to peers.dat  44ms
+trying connection 192.168.0.151:9379 lastseen=381949.9hrs
+connect() failed after select(): No route to host
+trying connection 192.168.0.80:9379 lastseen=381949.9hrs
+connect() failed after select(): No route to host
+Flushed 1 addresses to peers.dat  37ms
+09/27/16 23:43 hashmeter   1 CPUs      1 khash/s
+trying connection 192.168.0.151:9379 lastseen=381949.9hrs
+connect() failed after select(): No route to host
+trying connection 192.168.0.80:9379 lastseen=381950.0hrs
+connect() failed after select(): No route to host
+Flush(false)
+blkindex.dat refcount=0
+ThreadSocketHandler exited
+blkindex.dat checkpoint
+ThreadMessageHandler exited
+ThreadOpenConnections exited
+blkindex.dat closed
+DBFlush(false) ended             349ms
+StopNode()
+ThreadBitcoinMiner exiting, 0 threads remaining
+Flushed 1 addresses to peers.dat  430ms
+Flush(true)
+DBFlush(true) ended               0ms
+VoteChainCoin exited
+
